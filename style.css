@@ -1,0 +1,70 @@
+body {
+    background-image:url(../Bootstrap-Portfolio/leaves.png);
+}
+#aboutme{
+    font-size: 35px;
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    color: black;
+}
+.moveit{
+    background: white;
+    border-bottom: 4px solid pink;
+
+}
+
+nav {
+    color: purple;
+    margin: 50px;
+    margin-top: 0px;
+    font-size: 20px;
+
+}
+
+.fit-picture {
+    width: 24%;
+    padding: 20px;
+    float:left;
+}
+
+p {
+    color: #4aaaa5;
+    text-align: center;
+    line-height: 2; 
+    background-color: white;  
+}
+.part2 {
+    font-size: 20px;
+    text-align: left; 
+    line-height: 60px;
+    max-width: 1120px;;
+    margin: 0 auto;
+}
+.pics {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.stock {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px 0px 20px;
+    background-color: #666666;
+    color: white;
+    border-top:4px solid pink;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    
+}
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
